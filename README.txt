@@ -1,3 +1,6 @@
+# i2c
+A project for the ATmega328PB to use the TWI0 peripheral for reading and sending data across the i2c bus.
+
 About the versions of the ATmega you are using.
     If you are using a standard Arduino Uno / Nano then you likely have
     the regular ATmega328P an you should remove all trailing 0 (zeros)
