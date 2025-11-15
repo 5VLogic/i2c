@@ -37,4 +37,4 @@ For this follow the following steps:
             "
 
 
-Note: the two library files are also available in the folder "pb_lib"
+Note: the library files are also available in the folder "pb_lib"
