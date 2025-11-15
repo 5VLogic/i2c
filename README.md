@@ -21,8 +21,9 @@ For this follow the following steps:
 
 3) Then put "include/avr/iom328pb.h" in /usr/lib/avr/include/
 
-Then add the following lines to /usr/lib/avr/include/io.h:
+4) Add the following lines to /usr/lib/avr/include/io.h:
             "
             elif defined (__AVR_ATmega328PB__)
             include <avr/iom328pb.h>
             "
+Note: the two library files are also available in the folder "pb_lib"
