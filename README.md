@@ -8,8 +8,8 @@ About the versions of the ATmega you are using.
     Then remove the "B" from all occurrances of the ATmega328PB name
     in the makefile.
 
-    If you are using the PB version as me, you likely need to include the
-    specific libraries. For this follow the following steps:
+### If you are using the PB version as me, you likely need to include the
+specific libraries. For this follow the following steps:
 
 
         To add support for ATMEGA328PB version do:
