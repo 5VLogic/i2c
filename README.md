@@ -1,7 +1,16 @@
 # i2c
 A project for the ATmega328PB to use the TWI0 peripheral for reading and sending data across the i2c bus.
 
-About the versions of the ATmega you are using.
+There are of course improvements that can be made and functions to be added.
+The case of a slave-receiver is still to be implemented.
+
+If the objective is to use the ISR to minimize processing time during wait
+periods, it's likely better to write a custom FW for the specific application.
+
+The slave address parameter is taken as pre-shifted to the left by 1 bit,
+and the LSB determines if the global call is active or not.
+
+## About the versions of the ATmega you are using.
 
 ### If you are using a standard Arduino Uno / Nano
 then you likely have the regular ATmega328P an you should remove
