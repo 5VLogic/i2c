@@ -4,7 +4,7 @@
 #include <util/delay.h>
 #include <avr/interrupt.h>
 #include <util/twi.h>
-#include "../custom_usart/usart.h"
+#include "usart.h"
 
 #define SLA 0b10100000
 
